@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>El emporio de la ardilla</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/imagehover.min.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Indie+Flower&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="container-fluid d-flex header colorFondo" >
+            <div >
+                <a class="d-flex justify-content-center" href="./index.html"><img class="logo align-self-center p-2   " src="./assets/img/logo.png" alt="logo"></a>
+            </div>
+            <nav class="navbar navbar-expand-md navbar-dark container d-flex justify-content-end ">
+                <!--acá van las anclas de navegación entre las páginas de mi sitio web-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="collapse navbar-collapse justify-content-end sinmargin" id="navbarCollapse"> <!--añadí la clase "sinmargin" porque bootstrap me añadia un margin bottom en la navegación-->
+                    <li class="li"><a class="linkNav" href="#">Inicio</a></li>
+                    <li class="li"><a class="linkNav" href="./pages/Nosotros.html">Nosotros</a></li>
+                    <li class="li"><a class="linkNav" href="./pages/Productos.html">Productos</a></li>
+                    <li class="li"><a class="linkNav" href="./pages/Contacto.html">Contacto</a></li>
+                    <li class="li"><a class="linkNav" href="./pages/Eventos.html">Eventos</a></li>
+
+                </ul>
+            </nav>
+
+
+        </header>
+
+        <main class="principal">
+
+    <section class="bgcolor1 container">
+            <div>
+                <h1 class="Titulo p-3">El emporio de la Ardilla</h1>
+                <h2 class="subtitulo"> Todo sobre los roedores más tiernos del mundo </h2>
+            </div>
+                <div>
+                    <!-- decidi usar cards en vez de un carrusel-->
+                    <section class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-xl-4 ">
+                                <figure class="imghvr-shutter-out-diag-2">
+                                    <img class="estiloFoto2" src="./assets/img/ardillas-de-vientre-colorado.jpg" alt="Ardilla de vientre rojo">
+                                    <figcaption>
+                                    <h3 class="ih-fade-down ih-delay-sm ">Ardilla de vientre rojo</h3>
+                                    <p class="ih-zoom-in ih-delay-md estiloParrafo2">
+                                        <i>Es una especie originaria del sudeste de Asia que fue introducida con fines ornamentales en el partido de Luján.</i>
+                                    </p>
+                                    </figcaption>
+                                    
+                                </figure>
+                            </div>
+
+                            <div class="col-lg-4 col-xl-4 ">
+                                <figure class="imghvr-shutter-out-diag-2">
+                                    <img class="estiloFoto2" src="./assets/img/ardilla de tierra copetuda.jpg" alt="Ardilla tierra copetuda">
+                                    <figcaption>
+                                    <h3 class="ih-fade-down ih-delay-sm ">Ardilla tierra copetuda</h3>
+                                    <p class="ih-zoom-in ih-delay-md estiloParrafo2">
+                                        <i>La ardilla de tierra copetuda es la única especie del género Rheithrosciurus de roedor esciuromorfo de la familia Sciuridae.</i>
+                                    </p>
+                                    </figcaption>
+                                    
+                                </figure>
+                            </div>
+
+                            <div class="col-lg-4 col-xl-4 ">
+                                <figure class="imghvr-shutter-out-diag-2">
+                                    <img class="estiloFoto2" src="./assets/img/ardilla mexicana.jpg" alt="Ardilla gris mexicana">
+                                    <figcaption>
+                                    <h3 class="ih-fade-down ih-delay-sm ">Ardilla gris mexicana</h3>
+                                    <p class="ih-zoom-in ih-delay-md estiloParrafo2">
+                                        <i>La ardilla gris mexicana, conocida en México simplemente como ardilla gris, y también como ardilla arborícola o ardilla vientre rojo, ​ es una especie de roedor esciuromorfo de la familia Sciuridae.</i>
+                                    </p>
+                                    </figcaption>
+                                    
+                                </figure>
+                            </div>
+                            </div>
+                            
+                        </div>
+                    
+                    
+            <div>
+                <h2 class="container estiloTitulos text-center p-3">Nuestra misión </h2>
+            </div>
+            <div class="container estiloParrafo d-flex">
+                <p class="estiloParrafo text-center" >Si te gustan las ardillas, el Emporio de la Ardilla es tu sitio. Buscamos ofrecerte calidad y variedad sobre tus roedores preferidos.</p>
+            </div>
+            <div class="container estiloParrafo d-flex"> 
+                <p class="estiloParrafo text-center"> También podrás suscribirte a nuestro boletín oficial para obtener todas las novedades del Emporio de la Ardilla, como eventos y nuevos productos.
+                </p>
+            </div>
+            <div>
+                <h2 class="estiloTitulos1 container text-center" >¿Querés saber más?</h2>
+                <div class="container text-center p-3">
+                    <iframe class="borde video" width="" height="" src="https://www.youtube.com/embed/Ad-F13Wzqtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        </main>
+
+        <footer class="container-fluid colorFondo footer">
+            <div class="footerNav">
+                <div><a class="inline"> © Diseñado por Lara Orona</a> </div> 
+
+                <a class="inline" href="https://www.facebook.com/" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a class="inline" href="https://www.instagram.com/" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a class="inline" href="https://web.whatsapp.com/" target="_blank">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </div>
+
+        </footer>
+
+        <script src="./js/bootstrap.bundle.min.js"> </script>
+    </body>
+    </html>

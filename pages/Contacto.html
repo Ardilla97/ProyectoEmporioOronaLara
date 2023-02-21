@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Contacto</title>
+            <link rel="icon" href="../favicon.ico" type="image/x-icon">
+            <link rel="stylesheet" href="../css/bootstrap.min.css">
+            <link rel="stylesheet" href="../css/imagehover.min.css">
+            <link rel="stylesheet" href="../css/estilos.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Indie+Flower&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <header class="container-fluid d-flex header colorFondo">
+                <div class="d-flex">
+                    <a class="d-flex justify-content-center" href="./index.html"><img class="logo align-self-center p-2   " src="../assets/img/logo.png" alt="logo"></a>
+                </div>
+                <nav class="navbar navbar-expand-md navbar-dark container d-flex justify-content-end">
+                    <!--acá van las anclas de navegación entre las páginas de mi sitio web-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <ul class="collapse navbar-collapse justify-content-end sinmargin" id="navbarCollapse"> <!--para hacer listas desordenadas-->
+                        <li class="li"><a class="linkNav" href="../index.html">Inicio</a></li>
+                        <li class="li"><a class="linkNav" href="./Nosotros.html">Nosotros</a></li>
+                        <li class="li"><a class="linkNav" href="./Productos.html">Productos</a></li>
+                        <li class="li"><a class="linkNav" href="./Contacto.html">Contacto</a></li>
+                        <li class="li"><a class="linkNav" href="./Eventos.html">Eventos</a></li>
+    
+                    </ul>
+                </nav>
+    
+    
+            </header>
+
+        <main class="principal container-fluid">
+            <section class="bgcolor1 container"><h2 class="estiloTitulos text-center pt-5">¿Queres formar parte de la cuadrilla de la ardilla?<br>
+                ¡Suscribite a nuestro boletín oficial y no te pierdas todas las novedades!</h2>
+            <div>
+                <form action="#" target="" method="get" name="formDatosPersonales">
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+                
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos" id="apellidos" placeholder=" Apellido"/>
+                
+                    <label for="email" >Email</label>
+                    <input type="email" name="email" id="email" placeholder="email" required />
+                
+                    <label for="asunto">Asunto</label>
+                    <input type ="text" name="asunto" id="asunto" placeholder="titular del mensaje"/>
+                
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+                    
+                    <input type="submit" name="enviar" value="enviar datos"/>
+                </form>
+            </div>
+            
+            </section>
+        </main>
+
+        <footer class="container-fluid colorFondo footer">
+            <div class="footerNav">
+                <div><a class="inline">© Diseñado por Lara Orona</a> </div> 
+
+                <a class="inline" href="https://www.facebook.com/" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a class="inline" href="https://www.instagram.com/" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a class="inline" href="https://web.whatsapp.com/" target="_blank">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </div>
+
+        </footer>
+
+        <script src="../js/bootstrap.bundle.min.js"> </script>
+    </body>
+    </html>
