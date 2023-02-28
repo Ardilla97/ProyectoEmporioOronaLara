@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,200;0,300;0,500;0,800;1,200&display=swap');
+
+@import "reset";
+
+
+
+.header{
+    width: 100%;
+    height: 100%;
+}
+.colorFondo{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.logo{
+    width: 20%;
+    background-color: rgb(36, 94, 62);
+    border-radius: 117px 117px 117px 117px;
+-webkit-border-radius: 117px 117px 117px 117px;
+-moz-border-radius: 117px 117px 117px 117px;
+    border: 3px solid green;
+}
+
+.sinmargin{
+margin-bottom: 0;
+}
+.linkNav{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 1.8rem;
+    padding: 0 5px;
+    position: relative;
+
+}
+.li{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+/******************main**********************/
+
+.principal{
+    background-image: url(../assets/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.bgcolor1{
+    background-color: beige;
+    width: 80%;
+    height: 100%;
+
+}
+
+.Titulo{
+    font-family: 'Indie Flower', cursive;
+    font-size: 12mm;
+    text-align: center;
+}
+.subtitulo{
+    font-family: 'Indie Flower', cursive;
+    font-size: 9mm;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.estiloFoto2{
+    height: 250px !important;
+    width: 400px;
+    
+    
+}
+
+.estiloTitulos{
+    font-family: 'Indie Flower', cursive;
+    font-size: 11mm;
+}
+
+.estiloParrafo{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 7mm;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.estiloParrafo1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.6em;
+
+}
+.estiloParrafo2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1em;
+}
+.lista{
+    position: relative;
+    
+    
+    }
+.subtitulo1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 10mm;
+    text-align: center;
+    margin: 10% 0 2% 0 ;
+}
+.estiloLista{
+    margin: auto 30vw;
+    display: inline-block;
+    font-size: 5mm;
+}
+.estiloTitulos1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 10mm;
+    margin-top: 5vh;
+}
+
+.borde{
+    border: 4px solid #84fab0 ;
+}
+
+.video{
+    height: 30vh;
+    width: 40%;
+}
+
+/*página Nosotros*/
+
+.clasehover{
+    transition: all .2s;
+}
+.clasehover:hover{
+    transform: scale(1.1);
+}
+
+
+.hijoNosotros{ 
+    /*width: 30%;*/ 
+    background-color: rgb(255, 255, 255);  
+    /*padding: 10px;*/ 
+    border-radius: 2px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    vertical-align: top; 
+}
+
+.estiloFoto{
+    border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+width: 25vw;
+}
+
+.ajustarImagen{
+    height: 60vh;
+}
+
+/*****************Pagina Productos********************/
+
+.estiloFoto1{
+    border-radius: 77px 77px 77px 77px;
+-webkit-border-radius: 77px 77px 77px 77px;
+-moz-border-radius: 77px 77px 77px 77px;
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .logo{
+        width: 50%;
+        
+        
+    }
+    .estiloParrafo, .estiloParrafo1{
+        text-align: center;
+    }
+    .estiloTitulos1{
+        text-align: center;
+    }
+    .estiloFoto{
+        width: auto;
+    }
+    .video{
+        width: 100%;
+    }
+    .estiloParrafo2{
+        
+        font-size: 0.8em;
+    }
+}
+    
+
+
+/******************footer************************/
+
+
+.footerNav{
+    text-align: center;
+}
+
+.inline{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 6mm;
+    margin: 0 2vh;
+}
+
+.bgcolor2{
+    
+    background-color: beige;
+    width: 80%;
+    height: 120%;
+    position: relative;
+    left: 10%
+}
+
+.footer{
+    height: 10%;
+    
+}
+/**********Eventos**********/
+
+
+
+
+/*************Formulario***************/
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;}
