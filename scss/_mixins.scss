@@ -1,0 +1,5 @@
+@mixin texto($font,$size,$align){
+    font-family: $font;
+    font-size: $size;
+    text-align: $align;
+}

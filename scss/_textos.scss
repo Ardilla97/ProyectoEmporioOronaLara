@@ -1,0 +1,31 @@
+.Titulo{
+    @include texto($font-family-textos1,2.5em,center);
+}
+.subtitulo{
+    @include texto($font-family-textos1,2em,center);
+}
+
+.estiloTitulos{
+    @include texto($font-family-textos1,11mm,center);
+}
+
+.estiloParrafo{
+    @include texto($font-family-textos2,1.2em,left);
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.estilocards{
+    @include texto($font-family-textos2,1em,left);
+}
+.estiloParrafo2{
+    @include texto($font-family-textos2,1.5em,left);
+}
+.estiloTitulos1{
+    @include texto($font-family-textos1,10mm,center);
+    margin-top: 5vh;
+}
+.subtitulo1{
+    @include texto($font-family-textos1,10mm,center);
+    margin: 10% 0 2% 0 ;
+}

@@ -1,0 +1,27 @@
+.clasehover{
+    transition: all .2s;
+}
+.clasehover:hover{
+    transform: scale(1.1);
+}
+
+
+.hijoNosotros{ 
+    /*width: 30%;*/ 
+    background-color: rgb(255, 255, 255);  
+    /*padding: 10px;*/ 
+    border-radius: 2px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    vertical-align: top; 
+}
+
+.estiloFoto{
+    border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+width: 25vw;
+}
+
+.ajustarImagen{
+    height: 60vh;
+}
