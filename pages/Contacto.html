@@ -25,12 +25,12 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <ul class="collapse nav-tabs navbar-collapse justify-content-end navegacion" id="navbarCollapse"> <!--para hacer listas desordenadas-->
-                        <li class="li nav-item"><a class="nav-link linkNav" href="../index.html">Inicio</a></li>
-                        <li class="li nav-item"><a class="nav-link linkNav" href="./Nosotros.html">Nosotros</a></li>
-                        <li class="li nav-item"><a class="nav-link linkNav" href="./Productos.html">Productos</a></li>
-                        <li class="li nav-item"><a class="nav-link linkNav" href="./Contacto.html">Contacto</a></li>
-                        <li class="li nav-item"><a class="nav-link linkNav" href="./Eventos.html">Eventos</a></li>
+                    <ul class="collapse nav-tabs navbar-collapse justify-content-evenly navegacion" id="navbarCollapse"> <!--para hacer listas desordenadas-->
+                        <li class="li nav-item"><a class="nav-link linkNav estiloParrafo" href="../index.html">Inicio</a></li>
+                        <li class="li nav-item"><a class="nav-link linkNav estiloParrafo" href="./Nosotros.html">Nosotros</a></li>
+                        <li class="li nav-item"><a class="nav-link linkNav estiloParrafo" href="./Productos.html">Productos</a></li>
+                        <li class="li nav-item"><a class="nav-link linkNav estiloParrafo" href="./Contacto.html">Contacto</a></li>
+                        <li class="li nav-item"><a class="nav-link linkNav estiloParrafo" href="./Eventos.html">Eventos</a></li>
     
                     </ul>
                 </nav>
@@ -41,34 +41,33 @@
         <main class="principal container-fluid ">
             <section class="bgcolor1 container pb-5"><h2 class="estiloTitulos text-center pt-5">¿Queres formar parte de la cuadrilla de la ardilla?<br>
                 ¡Suscribite a nuestro boletín oficial y no te pierdas todas las novedades!</h2>
-            <div class="formulario mx-auto p-5" >
-                <form action="#" target="" method="get" name="formDatosPersonales">
-
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
-                
-                    <label for="apellidos">Apellido</label>
-                    <input type="text" name="apellido" id="apellidos" placeholder=" Apellido"/>
-                
-                    <label for="email" >Email</label>
-                    <input type="email" name="email" id="email" placeholder="email" required />
-                
-                    <label for="asunto">Asunto</label>
-                    <input type ="text" name="asunto" id="asunto" placeholder="titular del mensaje"/>
-                
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
-                    
-                    <input type="submit" name="enviar" value="enviar datos"/>
+            
+                <form>
+                    <div class="mb-3">
+                    <label for="email" class="form-label">Introduce un correo</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">No compartiremos tu correo electrónico con nadie!</div>
+                    </div>
+                    <div class="mb-3">
+                    <label for="Contraseña" class="form-label">Contraseña</label>
+                    <input type="Contraseña" class="form-control" id="Contraseña">
+                    </div><div class="mb-3">
+                        <label for="Comentarios" class="form-label">Añade un comentario</label>
+                        <input type="coment" class="form-control" id="Comentarios">
+                        </div>
+                    <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Recibir notificaciones cuando haya nuevas novedades</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
-            </div>
             
             </section>
         </main>
 
         <footer class="container-fluid colorFondo footer">
             <div class="footerNav">
-                <div><a class="inline">© Diseñado por Lara Orona</a> </div> 
+                <div><a class="inline estiloParrafo">© Diseñado por Lara Orona</a> </div> 
 
                 <a class="inline" href="https://www.facebook.com/" target="_blank">
                     <i class="bi bi-facebook"></i>
