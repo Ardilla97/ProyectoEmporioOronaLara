@@ -5,6 +5,10 @@
     @include texto($font-family-textos1,2em,center);
 }
 
+.subtitulocard{
+    @include texto($font-family-textos1,1.5em,center)
+}
+
 .estiloTitulos{
     @include texto($font-family-textos1,11mm,center);
 }

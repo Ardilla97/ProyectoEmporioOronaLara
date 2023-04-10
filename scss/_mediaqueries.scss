@@ -1,8 +1,6 @@
 @media (max-width: 768px) {
     .logo{
-        width: 50%;
-        
-        
+        width: 40%;
     }
     .estiloParrafo{
         text-align: center;
@@ -20,5 +18,15 @@
         
         font-size: 0.8em;
     }
+    /**.card{
+        margin: 0 auto;
+        justify-content: center;
+    }**/
+
+    .imagen404{
+        height: 400px;
+        width: 350px;
+    }
+
 }
     

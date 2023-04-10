@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tienda de artículos de ardillas y eventos temáticos. Aquí podrás encontrar desde información sobre las ardillas hasta tazas y llaveros con forma de ardilla">
+        <meta name="keywords" content="HTML, CSS, META, ARDILLAS, ARDILLA, EMPORIO, INDUMENTARIA, EVENTOS, BUENOS AIRES, INFORMACION SOBRE ARDILLAS">
         <title>El emporio de la ardilla</title>
         <link rel="icon" href="./favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -26,8 +28,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <ul class="collapse nav-tabs navbar-collapse justify-content-evenly navegacion d-flex" id="navbarCollapse"> <!--para hacer listas desordenadas-->
-                    <li class="li nav-item"><a class="nav-link linkNav estiloParrafo" href="#">Inicio</a></li>
+                <ul class="collapse nav-tabs navbar-collapse justify-content-evenly navegacion" id="navbarCollapse"> <!--para hacer listas desordenadas-->
+                    <li class="li nav-item"><a class="nav-link linkNav estiloParrafo" href="index.html">Inicio</a></li>
                     <li class="li nav-item"><a class="nav-link linkNav estiloParrafo" href="./pages/Nosotros.html">Nosotros</a></li>
                     <li class="li nav-item"><a class="nav-link linkNav estiloParrafo" href="./pages/Productos.html">Productos</a></li>
                     <li class="li nav-item"><a class="nav-link linkNav estiloParrafo" href="./pages/Contacto.html">Contacto</a></li>
@@ -82,7 +84,7 @@
                                     <figcaption>
                                     <h3 class="ih-fade-down ih-delay-sm text-center">Ardilla gris mexicana</h3>
                                     <p class="ih-zoom-in ih-delay-md estilocards">
-                                        <i>Conocida en México simplemente como ardilla gris, y también como ardilla arborícola o ardilla vientre rojo, ​ es una especie de roedor esciuromorfo de la familia Sciuridae.</i>
+                                        <i>Conocida en México simplemente como ardilla gris, y también como ardilla arborícola o ardilla vientre rojo, es una especie de roedor esciuromorfo de la familia Sciuridae.</i>
                                     </p>
                                     </figcaption>
                                     
@@ -103,12 +105,29 @@
                 <p class="estiloParrafo text-center"> También podrás suscribirte a nuestro boletín oficial para obtener todas las novedades del Emporio de la Ardilla, como eventos y nuevos productos.
                 </p>
             </div>
-            <div>
-                <h2 class="estiloTitulos1 container text-center" >¿Querés saber más?</h2>
-                <div class="container text-center p-3">
-                    <iframe class="borde video" width="" height="" src="https://www.youtube.com/embed/Ad-F13Wzqtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="container">
+                <div class="row d-flex justify-content-evenly">
+                    <div class="mb-5 mt-3 col-lg-4 col-xs-12 hijoNosotros clasehover text-center w-auto justify-content-evenly">
+                    <a href="./pages/Productos.html">
+                        <img class="ajustarImagen img-fluid " src="./assets/img/producto1.jpg" alt="Productos">
+                    </a>
+                        <h2 class="m-3 estiloParrafo">Mirá nuestros productos</h2>
+                    </div>
+                
+                <div class="mb-5 mt-3 col-lg-4 col-xs-12 hijoNosotros clasehover text-center w-auto justify-content-evenly">
+                    <a href="./pages/Eventos.html">
+                        <img class="ajustarImagen img-fluid " src="./assets/img/logo.jpg" alt="Eventos">
+                    </a>
+                    <h2 class="m-3 estiloParrafo">Participá de nuestros eventos</h2>
                 </div>
+                    <div class="mb-5 mt-3 col-lg-4 col-xs-12 hijoNosotros clasehover text-center w-auto justify-content-evenly">
+                        <a href="./pages/Contacto.html">
+                    <img class="ajustarImagen img-fluid " src="./assets/img/boletin.jpg" alt="Boletin"></a>
+                    <h2 class="m-3 estiloParrafo">Suscribite a nuestro boletín</h2>
+                    </div>
+                </div> 
             </div>
+            
         </section>
         </main>
 
